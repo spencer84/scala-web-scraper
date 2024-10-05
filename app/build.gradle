@@ -25,6 +25,9 @@ dependencies {
 
     // This dependency is used by the application.
     implementation libs.guava
+
+    implementation 'org.seleniumhq.selenium:selenium-java:4.25.0'
+    implementation 'org.junit.jupiter:junit-jupiter-engine:5.11.0'
 }
 
 testing {
@@ -55,5 +58,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'org.example.App'
+    mainClass = 'org.scraper.App'
 }
