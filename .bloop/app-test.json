@@ -1,0 +1,1397 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "app-test",
+        "directory": "/Users/samspencer/Documents/GitHub/scala-web-scraper/app",
+        "workspaceDir": "/Users/samspencer/Documents/GitHub/scala-web-scraper",
+        "sources": [
+            "/Users/samspencer/Documents/GitHub/scala-web-scraper/app/src/test/java",
+            "/Users/samspencer/Documents/GitHub/scala-web-scraper/app/src/test/scala"
+        ],
+        "dependencies": [
+            "app"
+        ],
+        "classpath": [
+            "/Users/samspencer/Documents/GitHub/scala-web-scraper/.bloop/app/build/classes",
+            "/Users/samspencer/Documents/GitHub/scala-web-scraper/app/src/main/resources",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.13/3.2.19/7635de1f38369f1c46df062bb475e0d3d60bf152/scalatest_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatestplus/junit-4-13_2.13/3.2.2.0/75fd94bb9272ec7023409cb80547ff5ea9bb813d/junit-4-13_2.13-3.2.2.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-featurespec_2.13/3.2.19/3732488eb1e6c7a1f164c9373f7cb4688161e60e/scalatest-featurespec_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-flatspec_2.13/3.2.19/8f5472ac09054656b578c6c57d780b547c88c9f7/scalatest-flatspec_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-freespec_2.13/3.2.19/a656612babdeeecb83bc45de091344b800a1d011/scalatest-freespec_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funsuite_2.13/3.2.19/b10b4b432147a94747ccbcc2bc31fffd094ba43e/scalatest-funsuite_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funspec_2.13/3.2.19/295dae100ffa67e7d12f99296b07d062dce0baf9/scalatest-funspec_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-propspec_2.13/3.2.19/2d38d275d74f547a3388f1ed9e149b2124f0fc66/scalatest-propspec_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-refspec_2.13/3.2.19/57eef43635589a398eaef6651ca1181e714a5686/scalatest-refspec_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-wordspec_2.13/3.2.19/8408dbc887b65932c42389d4af15ad231078baf6/scalatest-wordspec_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-diagrams_2.13/3.2.19/627ce69bcab1472c163537d8183506c02340bf71/scalatest-diagrams_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-shouldmatchers_2.13/3.2.19/acdabf60d810ebede4263e7182893078c5fa1114/scalatest-shouldmatchers_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-mustmatchers_2.13/3.2.19/b6604e85a24b401e7e3ea6a896bd17f0e52af15/scalatest-mustmatchers_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-matchers-core_2.13/3.2.19/a1a6243b90957ddc718ab6e390b4a32e9122936e/scalatest-matchers-core_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-core_2.13/3.2.19/b39ebf9182d014bd9e0c6391b0677b90acc6dce4/scalatest-core_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.13/3.2.19/afa3b540f0d63342d8be3aa946c4dbfff3bb7cd/scalactic_2.13-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.13.10/f19c2a5fc93a63398a5cfc56a14f0abf1d28d27c/scala-reflect-2.13.10.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.13/2.1.0/f2c107c097692b6c07941e7b96fcf6ec3b58add6/scala-xml_2.13-2.1.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.14/f8b4afe89abe48ca670f620c7da89b71f93e6546/scala-library-2.13.14.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-java/4.25.0/2cc38c8dbef9d6e8774f05c2d2e8088180858ed4/selenium-java-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/4.25.0/bbd1b1defdf733cfc6bcf7eb8f04ef6752dfaf12/selenium-chrome-driver-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v127/4.25.0/3b972d38578c5743a6176a6ed25aba9558573196/selenium-devtools-v127-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v128/4.25.0/e25847baa8b7dbdcb2088a0cc4910902e97d4e88/selenium-devtools-v128-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v129/4.25.0/45377c4e61ed09d67a0f08b9f1ea2e569327e9c4/selenium-devtools-v129-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/4.25.0/9a3a50dc5a4412f93171c842b97a7abc3a3aff8c/selenium-firefox-driver-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v85/4.25.0/c7c4f2166933c72e7b2f8e855ac4b6875521bd2e/selenium-devtools-v85-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-edge-driver/4.25.0/b37ab3b7d580accd9b9d689ca79349f03975a2af/selenium-edge-driver-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-ie-driver/4.25.0/c3499216bb107a4a45adbed8e3426de3a9773fe6/selenium-ie-driver-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-safari-driver/4.25.0/b6fb9a251cea14893a9215b788b7deaf3a122966/selenium-safari-driver-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/4.25.0/d7debdba1e13cf3e9ce135159e25a205777a1927/selenium-support-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chromium-driver/4.25.0/d4b09733077325de231545870c654c57a1578e39/selenium-chromium-driver-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.25.0/4d557c5e4179de58ae71f36d9826ef63b316e0e4/selenium-remote-driver-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/33.3.0-jre/13b4d0924e6023eda04b4c7aa83b32dfedf735a7/guava-33.3.0-jre.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.11.0/b981f322be92fe343d4a79f28208bb4475806019/junit-platform-engine-1.11.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.11.0/2093fd814e940224cfa5a1882d87cc9d81e25c3/junit-jupiter-api-5.11.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.11.0/9bb41eff52781584798c487b68782ae3b4126f14/junit-platform-commons-1.11.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.11.0/e0ef3a2222e000e0b5ab76fda0d38d011526f54c/junit-jupiter-engine-5.11.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.2/c4a06a64e650562f30b7bf9aaec1bfed43aca12b/failureaccess-1.0.2.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.43.0/9425eee39e56b116d2b998b7c2cebcbd11a3c98b/checker-qual-3.43.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.28.0/59fc00087ce372de42e394d2c789295dff2d19f0/error_prone_annotations-2.28.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/3.0.0/7399e65dd7e9ff3404f4535b2f017093bdb134c7/j2objc-annotations-3.0.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-manager/4.25.0/5eabba83792402f671b43b3411dc318b2a591705/selenium-manager-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-http/4.25.0/67b2636517647e835c1784539f84be8dc5a001b2/selenium-http-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-json/4.25.0/a6702380e592496b41d5a88e185c04e3205a4048/selenium-json-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-os/4.25.0/dc1d5660dd9dcd08c89288da6ee588261bfa3090/selenium-os-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/4.25.0/959893b195e318a5d4653d65805ccffb521ed03c/selenium-api-4.25.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/a231e0d844d2721b0fa1b238006d15c6ded6842a/apiguardian-api-1.1.2.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.jspecify/jspecify/1.0.0/7425a601c1c7ec76645a78d22b8c6a627edee507/jspecify-1.0.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.1.1/da12a15cd058ba90a0ff55357fb521161af4736d/auto-service-annotations-1.1.1.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry.semconv/opentelemetry-semconv/1.25.0-alpha/76b3d4ca0a8f20b27c1590ceece54f0c7fb5857e/opentelemetry-semconv-1.25.0-alpha.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-exporter-logging/1.42.1/682e34249a5765e54e367722ebbbed4b26235225/opentelemetry-exporter-logging-1.42.1.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.42.1/10a61eac41724f077492866491be4b22970949d5/opentelemetry-sdk-extension-autoconfigure-1.42.1.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.42.1/5d8f2ee570cc22f61d667a8ca5ea84f661acdcbc/opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk/1.42.1/ec53ed469a4a6c81faebee3617896c963960fc78/opentelemetry-sdk-1.42.1.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-trace/1.42.1/58231c9b2d5f6978bdfd72ba6949d854796658ca/opentelemetry-sdk-trace-1.42.1.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-metrics/1.42.1/92e53b2f4f31d0c8fd08a461c036accb4e3c797/opentelemetry-sdk-metrics-1.42.1.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-logs/1.42.1/e758b47459c866c6e10d3141979561951cab55d/opentelemetry-sdk-logs-1.42.1.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-common/1.42.1/e6f1abd8acbcc831e8e064b7e1c94dfc83efdbcc/opentelemetry-sdk-common-1.42.1.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-api/1.42.1/f1b941cea23d721b368847e4b261a8aa52dc16a4/opentelemetry-api-1.42.1.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-context/1.42.1/709259e280967201e423065fbaaed6b15a193d3/opentelemetry-context-1.42.1.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.15.1/3072da2184d49cf642d22badee2ce36b2d6dfb92/byte-buddy-1.15.1.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.3.0/152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e/opentest4j-1.3.0.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-compatible/3.2.19/609bc82cc06a1322f60039a81fc003ee81d7064f/scalatest-compatible-3.2.19.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/dev.failsafe/failsafe/3.3.2/738a986f1f0e4b6c6a49d351dddc772d1378c5a8/failsafe-3.3.2.jar",
+            "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.4.0/e9061b21958bfaf1cb736eb22e36cbf02d8fe9f/commons-exec-1.4.0.jar"
+        ],
+        "out": "/Users/samspencer/Documents/GitHub/scala-web-scraper/.bloop/app-test/build",
+        "classesDir": "/Users/samspencer/Documents/GitHub/scala-web-scraper/.bloop/app-test/build/classes",
+        "resources": [
+            "/Users/samspencer/Documents/GitHub/scala-web-scraper/app/src/test/resources"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.14",
+            "options": [
+                "-deprecation",
+                "-unchecked"
+            ],
+            "jars": [
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.13.14/b368b28b93d90f61b1aa00506a4935aa6f69b960/scala-compiler-2.13.14.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-sbt/compiler-bridge_2.13/1.9.3/f209697417427c3a239f809d1a0fb2e8614a1875/compiler-bridge_2.13-1.9.3-sources.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-sbt/compiler-interface/1.9.3/b882061aec6f9de3093e777c28022eec82a1e802/compiler-interface-1.9.3.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.13.14/8e275fefb2a01e178db2cdfebb2181062a790b82/scala-reflect-2.13.14.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.14/f8b4afe89abe48ca670f620c7da89b71f93e6546/scala-library-2.13.14.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.github.java-diff-utils/java-diff-utils/4.12/1a712a91324d566eef39817fc5c9980eb10c21db/java-diff-utils-4.12.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.jline/jline/3.25.1/3d5c848825ffca5d798e6fc2987ac573bd424a1b/jline-3.25.1.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.14.0/67bf3eaea4f0718cb376a181a629e5f88fa1c9dd/jna-5.14.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-sbt/util-interface/1.9.2/b696783ce958ebdf061c53fa173a67f9f1b88754/util-interface-1.9.2.jar"
+            ],
+            "setup": {
+                "order": "java->scala",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-target",
+                "17",
+                "-source",
+                "17",
+                "-h",
+                "/Users/samspencer/Documents/GitHub/scala-web-scraper/app/build/generated/sources/headers/java/test",
+                "-g",
+                "-sourcepath",
+                "",
+                "-proc:none",
+                "-XDuseUnsharedTable=true"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "classpath": [
+                "/Users/samspencer/Documents/GitHub/scala-web-scraper/.bloop/app/build/classes",
+                "/Users/samspencer/Documents/GitHub/scala-web-scraper/app/src/main/resources",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.13/3.2.19/7635de1f38369f1c46df062bb475e0d3d60bf152/scalatest_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatestplus/junit-4-13_2.13/3.2.2.0/75fd94bb9272ec7023409cb80547ff5ea9bb813d/junit-4-13_2.13-3.2.2.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-featurespec_2.13/3.2.19/3732488eb1e6c7a1f164c9373f7cb4688161e60e/scalatest-featurespec_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-flatspec_2.13/3.2.19/8f5472ac09054656b578c6c57d780b547c88c9f7/scalatest-flatspec_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-freespec_2.13/3.2.19/a656612babdeeecb83bc45de091344b800a1d011/scalatest-freespec_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funsuite_2.13/3.2.19/b10b4b432147a94747ccbcc2bc31fffd094ba43e/scalatest-funsuite_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funspec_2.13/3.2.19/295dae100ffa67e7d12f99296b07d062dce0baf9/scalatest-funspec_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-propspec_2.13/3.2.19/2d38d275d74f547a3388f1ed9e149b2124f0fc66/scalatest-propspec_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-refspec_2.13/3.2.19/57eef43635589a398eaef6651ca1181e714a5686/scalatest-refspec_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-wordspec_2.13/3.2.19/8408dbc887b65932c42389d4af15ad231078baf6/scalatest-wordspec_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-diagrams_2.13/3.2.19/627ce69bcab1472c163537d8183506c02340bf71/scalatest-diagrams_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-shouldmatchers_2.13/3.2.19/acdabf60d810ebede4263e7182893078c5fa1114/scalatest-shouldmatchers_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-mustmatchers_2.13/3.2.19/b6604e85a24b401e7e3ea6a896bd17f0e52af15/scalatest-mustmatchers_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-matchers-core_2.13/3.2.19/a1a6243b90957ddc718ab6e390b4a32e9122936e/scalatest-matchers-core_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-core_2.13/3.2.19/b39ebf9182d014bd9e0c6391b0677b90acc6dce4/scalatest-core_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.13/3.2.19/afa3b540f0d63342d8be3aa946c4dbfff3bb7cd/scalactic_2.13-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.13.10/f19c2a5fc93a63398a5cfc56a14f0abf1d28d27c/scala-reflect-2.13.10.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.13/2.1.0/f2c107c097692b6c07941e7b96fcf6ec3b58add6/scala-xml_2.13-2.1.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.14/f8b4afe89abe48ca670f620c7da89b71f93e6546/scala-library-2.13.14.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-java/4.25.0/2cc38c8dbef9d6e8774f05c2d2e8088180858ed4/selenium-java-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/4.25.0/bbd1b1defdf733cfc6bcf7eb8f04ef6752dfaf12/selenium-chrome-driver-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v127/4.25.0/3b972d38578c5743a6176a6ed25aba9558573196/selenium-devtools-v127-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v128/4.25.0/e25847baa8b7dbdcb2088a0cc4910902e97d4e88/selenium-devtools-v128-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v129/4.25.0/45377c4e61ed09d67a0f08b9f1ea2e569327e9c4/selenium-devtools-v129-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/4.25.0/9a3a50dc5a4412f93171c842b97a7abc3a3aff8c/selenium-firefox-driver-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v85/4.25.0/c7c4f2166933c72e7b2f8e855ac4b6875521bd2e/selenium-devtools-v85-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-edge-driver/4.25.0/b37ab3b7d580accd9b9d689ca79349f03975a2af/selenium-edge-driver-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-ie-driver/4.25.0/c3499216bb107a4a45adbed8e3426de3a9773fe6/selenium-ie-driver-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-safari-driver/4.25.0/b6fb9a251cea14893a9215b788b7deaf3a122966/selenium-safari-driver-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/4.25.0/d7debdba1e13cf3e9ce135159e25a205777a1927/selenium-support-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chromium-driver/4.25.0/d4b09733077325de231545870c654c57a1578e39/selenium-chromium-driver-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.25.0/4d557c5e4179de58ae71f36d9826ef63b316e0e4/selenium-remote-driver-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/33.3.0-jre/13b4d0924e6023eda04b4c7aa83b32dfedf735a7/guava-33.3.0-jre.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.11.0/b981f322be92fe343d4a79f28208bb4475806019/junit-platform-engine-1.11.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.11.0/2093fd814e940224cfa5a1882d87cc9d81e25c3/junit-jupiter-api-5.11.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.11.0/9bb41eff52781584798c487b68782ae3b4126f14/junit-platform-commons-1.11.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.11.0/e0ef3a2222e000e0b5ab76fda0d38d011526f54c/junit-jupiter-engine-5.11.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.2/c4a06a64e650562f30b7bf9aaec1bfed43aca12b/failureaccess-1.0.2.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.43.0/9425eee39e56b116d2b998b7c2cebcbd11a3c98b/checker-qual-3.43.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.28.0/59fc00087ce372de42e394d2c789295dff2d19f0/error_prone_annotations-2.28.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-manager/4.25.0/5eabba83792402f671b43b3411dc318b2a591705/selenium-manager-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-http/4.25.0/67b2636517647e835c1784539f84be8dc5a001b2/selenium-http-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-json/4.25.0/a6702380e592496b41d5a88e185c04e3205a4048/selenium-json-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-os/4.25.0/dc1d5660dd9dcd08c89288da6ee588261bfa3090/selenium-os-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/4.25.0/959893b195e318a5d4653d65805ccffb521ed03c/selenium-api-4.25.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.jspecify/jspecify/1.0.0/7425a601c1c7ec76645a78d22b8c6a627edee507/jspecify-1.0.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.1.1/da12a15cd058ba90a0ff55357fb521161af4736d/auto-service-annotations-1.1.1.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry.semconv/opentelemetry-semconv/1.25.0-alpha/76b3d4ca0a8f20b27c1590ceece54f0c7fb5857e/opentelemetry-semconv-1.25.0-alpha.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-exporter-logging/1.42.1/682e34249a5765e54e367722ebbbed4b26235225/opentelemetry-exporter-logging-1.42.1.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.42.1/10a61eac41724f077492866491be4b22970949d5/opentelemetry-sdk-extension-autoconfigure-1.42.1.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.42.1/5d8f2ee570cc22f61d667a8ca5ea84f661acdcbc/opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk/1.42.1/ec53ed469a4a6c81faebee3617896c963960fc78/opentelemetry-sdk-1.42.1.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-trace/1.42.1/58231c9b2d5f6978bdfd72ba6949d854796658ca/opentelemetry-sdk-trace-1.42.1.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-metrics/1.42.1/92e53b2f4f31d0c8fd08a461c036accb4e3c797/opentelemetry-sdk-metrics-1.42.1.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-logs/1.42.1/e758b47459c866c6e10d3141979561951cab55d/opentelemetry-sdk-logs-1.42.1.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-common/1.42.1/e6f1abd8acbcc831e8e064b7e1c94dfc83efdbcc/opentelemetry-sdk-common-1.42.1.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-api-incubator/1.42.1-alpha/34deab246aa89c609849ebf17716c5c3a5831fb2/opentelemetry-api-incubator-1.42.1-alpha.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-api/1.42.1/f1b941cea23d721b368847e4b261a8aa52dc16a4/opentelemetry-api-1.42.1.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-context/1.42.1/709259e280967201e423065fbaaed6b15a193d3/opentelemetry-context-1.42.1.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.15.1/3072da2184d49cf642d22badee2ce36b2d6dfb92/byte-buddy-1.15.1.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.3.0/152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e/opentest4j-1.3.0.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-compatible/3.2.19/609bc82cc06a1322f60039a81fc003ee81d7064f/scalatest-compatible-3.2.19.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/dev.failsafe/failsafe/3.3.2/738a986f1f0e4b6c6a49d351dddc772d1378c5a8/failsafe-3.3.2.jar",
+                "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.4.0/e9061b21958bfaf1cb736eb22e36cbf02d8fe9f/commons-exec-1.4.0.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-chromium-driver",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-chromium-driver",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chromium-driver/4.25.0/77bdd7c29771bad18020c91345189a253633f54a/selenium-chromium-driver-4.25.0-sources.jar"
+                        },
+                        {
+                            "name": "selenium-chromium-driver",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chromium-driver/4.25.0/d4b09733077325de231545870c654c57a1578e39/selenium-chromium-driver-4.25.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.errorprone",
+                    "name": "error_prone_annotations",
+                    "version": "2.28.0",
+                    "artifacts": [
+                        {
+                            "name": "error_prone_annotations",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.28.0/59fc00087ce372de42e394d2c789295dff2d19f0/error_prone_annotations-2.28.0.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.28.0/e8f57b15a91d274ff61195e53e9762f3232c690f/error_prone_annotations-2.28.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-chrome-driver",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-chrome-driver",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/4.25.0/1f6ea01b1ba99a5148f520360e5f3d815c138829/selenium-chrome-driver-4.25.0-sources.jar"
+                        },
+                        {
+                            "name": "selenium-chrome-driver",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-chrome-driver/4.25.0/bbd1b1defdf733cfc6bcf7eb8f04ef6752dfaf12/selenium-chrome-driver-4.25.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-sdk-trace",
+                    "version": "1.42.1",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-sdk-trace",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-trace/1.42.1/b72ade1076be7dcbba972d317236bf8bfd80c62e/opentelemetry-sdk-trace-1.42.1-sources.jar"
+                        },
+                        {
+                            "name": "opentelemetry-sdk-trace",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-trace/1.42.1/58231c9b2d5f6978bdfd72ba6949d854796658ca/opentelemetry-sdk-trace-1.42.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-engine",
+                    "version": "5.11.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-engine",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.11.0/e0ef3a2222e000e0b5ab76fda0d38d011526f54c/junit-jupiter-engine-5.11.0.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-engine",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.11.0/e7ab87b12f0a7fdf54dff3eb4b328f748dcbd9a4/junit-jupiter-engine-5.11.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funspec_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funspec_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funspec_2.13/3.2.19/295dae100ffa67e7d12f99296b07d062dce0baf9/scalatest-funspec_2.13-3.2.19.jar"
+                        },
+                        {
+                            "name": "scalatest-funspec_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funspec_2.13/3.2.19/6e838861a63aa37936a5422d9a096152c3c3fb5f/scalatest-funspec_2.13-3.2.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-api",
+                    "version": "5.11.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-api",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.11.0/2093fd814e940224cfa5a1882d87cc9d81e25c3/junit-jupiter-api-5.11.0.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-api",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.11.0/9229115c1811a5a7b3c8c617b8ca6b70e9b27d13/junit-jupiter-api-5.11.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.13",
+                    "version": "2.1.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.13/2.1.0/fd264db1c7415552a8d2cb28ec65bcc922fc298/scala-xml_2.13-2.1.0-sources.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.13/2.1.0/f2c107c097692b6c07941e7b96fcf6ec3b58add6/scala-xml_2.13-2.1.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-context",
+                    "version": "1.42.1",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-context",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-context/1.42.1/5cba0d7c3d97c1ed2d9b9ca1996f979a26a8e337/opentelemetry-context-1.42.1-sources.jar"
+                        },
+                        {
+                            "name": "opentelemetry-context",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-context/1.42.1/709259e280967201e423065fbaaed6b15a193d3/opentelemetry-context-1.42.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-shouldmatchers_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-shouldmatchers_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-shouldmatchers_2.13/3.2.19/acdabf60d810ebede4263e7182893078c5fa1114/scalatest-shouldmatchers_2.13-3.2.19.jar"
+                        },
+                        {
+                            "name": "scalatest-shouldmatchers_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-shouldmatchers_2.13/3.2.19/4687389a94dfdf77aaec5749b8d802afc5b2921a/scalatest-shouldmatchers_2.13-3.2.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-http",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-http",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-http/4.25.0/67b2636517647e835c1784539f84be8dc5a001b2/selenium-http-4.25.0.jar"
+                        },
+                        {
+                            "name": "selenium-http",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-http/4.25.0/592e999b0c89ac384b230c0372874ebd5b58083c/selenium-http-4.25.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-sdk",
+                    "version": "1.42.1",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-sdk",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk/1.42.1/4836d39dee620dea68325466374a4bd82b6ad364/opentelemetry-sdk-1.42.1-sources.jar"
+                        },
+                        {
+                            "name": "opentelemetry-sdk",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk/1.42.1/ec53ed469a4a6c81faebee3617896c963960fc78/opentelemetry-sdk-1.42.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.13/3.2.19/9c2805fad3360d449b0af58e71fb98e8918cf91a/scalatest_2.13-3.2.19-sources.jar"
+                        },
+                        {
+                            "name": "scalatest_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.13/3.2.19/7635de1f38369f1c46df062bb475e0d3d60bf152/scalatest_2.13-3.2.19.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-commons",
+                    "version": "1.11.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-commons",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.11.0/9bb41eff52781584798c487b68782ae3b4126f14/junit-platform-commons-1.11.0.jar"
+                        },
+                        {
+                            "name": "junit-platform-commons",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.11.0/2ae6ca14c1e110fe57184c20831457ed9156005b/junit-platform-commons-1.11.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-freespec_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-freespec_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-freespec_2.13/3.2.19/a656612babdeeecb83bc45de091344b800a1d011/scalatest-freespec_2.13-3.2.19.jar"
+                        },
+                        {
+                            "name": "scalatest-freespec_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-freespec_2.13/3.2.19/f34911245d8d1a7b0166a433d35b9c1bfe19a0cf/scalatest-freespec_2.13-3.2.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.j2objc",
+                    "name": "j2objc-annotations",
+                    "version": "3.0.0",
+                    "artifacts": [
+                        {
+                            "name": "j2objc-annotations",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/3.0.0/7399e65dd7e9ff3404f4535b2f017093bdb134c7/j2objc-annotations-3.0.0.jar"
+                        },
+                        {
+                            "name": "j2objc-annotations",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/3.0.0/e6e870c6faf70867a723848b036607cd7d389621/j2objc-annotations-3.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-flatspec_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-flatspec_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-flatspec_2.13/3.2.19/fa0e65073a3aafcdd4b17c4f7f5adc3e624394c2/scalatest-flatspec_2.13-3.2.19-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-flatspec_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-flatspec_2.13/3.2.19/8f5472ac09054656b578c6c57d780b547c88c9f7/scalatest-flatspec_2.13-3.2.19.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.failsafe",
+                    "name": "failsafe",
+                    "version": "3.3.2",
+                    "artifacts": [
+                        {
+                            "name": "failsafe",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/dev.failsafe/failsafe/3.3.2/738a986f1f0e4b6c6a49d351dddc772d1378c5a8/failsafe-3.3.2.jar"
+                        },
+                        {
+                            "name": "failsafe",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/dev.failsafe/failsafe/3.3.2/570027ca5c2f3861c4270e5460001b7189a12034/failsafe-3.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "junit",
+                    "name": "junit",
+                    "version": "4.13.2",
+                    "artifacts": [
+                        {
+                            "name": "junit",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/33987872a811fe4d4001ed494b07854822257f42/junit-4.13.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-manager",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-manager",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-manager/4.25.0/5eabba83792402f671b43b3411dc318b2a591705/selenium-manager-4.25.0.jar"
+                        },
+                        {
+                            "name": "selenium-manager",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-manager/4.25.0/c7d44eee0630dd9f1ca07243678de5d31b32f492/selenium-manager-4.25.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatestplus",
+                    "name": "junit-4-13_2.13",
+                    "version": "3.2.2.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-4-13_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatestplus/junit-4-13_2.13/3.2.2.0/75fd94bb9272ec7023409cb80547ff5ea9bb813d/junit-4-13_2.13-3.2.2.0.jar"
+                        },
+                        {
+                            "name": "junit-4-13_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatestplus/junit-4-13_2.13/3.2.2.0/d667a1de3e392682978823404573b7a28cdaf215/junit-4-13_2.13-3.2.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-support",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-support",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/4.25.0/d7debdba1e13cf3e9ce135159e25a205777a1927/selenium-support-4.25.0.jar"
+                        },
+                        {
+                            "name": "selenium-support",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-support/4.25.0/9417d452673a4df279bcb16c9e88f0a1b70fcac1/selenium-support-4.25.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funsuite_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funsuite_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funsuite_2.13/3.2.19/b10b4b432147a94747ccbcc2bc31fffd094ba43e/scalatest-funsuite_2.13-3.2.19.jar"
+                        },
+                        {
+                            "name": "scalatest-funsuite_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-funsuite_2.13/3.2.19/5e04e68a04e826c1e9b8a610d20e510e51568d17/scalatest-funsuite_2.13-3.2.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "3.43.0",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.43.0/9425eee39e56b116d2b998b7c2cebcbd11a3c98b/checker-qual-3.43.0.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.43.0/dfd1d5ec59d04e7bd1ad44e74da445b880cfc2e1/checker-qual-3.43.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-engine",
+                    "version": "1.11.0",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-engine",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.11.0/b981f322be92fe343d4a79f28208bb4475806019/junit-platform-engine-1.11.0.jar"
+                        },
+                        {
+                            "name": "junit-platform-engine",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.11.0/9e0c6d3fbc852b5c5a6d8a3fb42eec7abd63c7d4/junit-platform-engine-1.11.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jspecify",
+                    "name": "jspecify",
+                    "version": "1.0.0",
+                    "artifacts": [
+                        {
+                            "name": "jspecify",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.jspecify/jspecify/1.0.0/7425a601c1c7ec76645a78d22b8c6a627edee507/jspecify-1.0.0.jar"
+                        },
+                        {
+                            "name": "jspecify",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.jspecify/jspecify/1.0.0/f1a67bbcf2f9f282baf3821046563983f16ca9b2/jspecify-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-java",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-java",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-java/4.25.0/14eb2b9d47d4910e4000dcf071aa86a610d14d26/selenium-java-4.25.0-sources.jar"
+                        },
+                        {
+                            "name": "selenium-java",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-java/4.25.0/2cc38c8dbef9d6e8774f05c2d2e8088180858ed4/selenium-java-4.25.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-refspec_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-refspec_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-refspec_2.13/3.2.19/57eef43635589a398eaef6651ca1181e714a5686/scalatest-refspec_2.13-3.2.19.jar"
+                        },
+                        {
+                            "name": "scalatest-refspec_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-refspec_2.13/3.2.19/857c97fa129ce40bc3c8ead74dfe15bea9dfa2cc/scalatest-refspec_2.13-3.2.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-ie-driver",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-ie-driver",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-ie-driver/4.25.0/906ff553496abb0f7da282e4e2c87125d035bd12/selenium-ie-driver-4.25.0-sources.jar"
+                        },
+                        {
+                            "name": "selenium-ie-driver",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-ie-driver/4.25.0/c3499216bb107a4a45adbed8e3426de3a9773fe6/selenium-ie-driver-4.25.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-devtools-v127",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-devtools-v127",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v127/4.25.0/3b972d38578c5743a6176a6ed25aba9558573196/selenium-devtools-v127-4.25.0.jar"
+                        },
+                        {
+                            "name": "selenium-devtools-v127",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v127/4.25.0/1dd39e06784475c6c9c590d9a655f45f82f62c4e/selenium-devtools-v127-4.25.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-sdk-extension-autoconfigure-spi",
+                    "version": "1.42.1",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-sdk-extension-autoconfigure-spi",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.42.1/5d8f2ee570cc22f61d667a8ca5ea84f661acdcbc/opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar"
+                        },
+                        {
+                            "name": "opentelemetry-sdk-extension-autoconfigure-spi",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.42.1/6eea2ea24c0e910d01e7ad2066ccaea3a20229f/opentelemetry-sdk-extension-autoconfigure-spi-1.42.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-wordspec_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-wordspec_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-wordspec_2.13/3.2.19/8408dbc887b65932c42389d4af15ad231078baf6/scalatest-wordspec_2.13-3.2.19.jar"
+                        },
+                        {
+                            "name": "scalatest-wordspec_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-wordspec_2.13/3.2.19/c945f612404514715be475790f49a655ade9b8c/scalatest-wordspec_2.13-3.2.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "listenablefuture",
+                    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+                    "artifacts": [
+                        {
+                            "name": "listenablefuture",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-remote-driver",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-remote-driver",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.25.0/371cda5bcd30fbddfca01dabd336504b3257eb70/selenium-remote-driver-4.25.0-sources.jar"
+                        },
+                        {
+                            "name": "selenium-remote-driver",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/4.25.0/4d557c5e4179de58ae71f36d9826ef63b316e0e4/selenium-remote-driver-4.25.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-devtools-v128",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-devtools-v128",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v128/4.25.0/e02cec4c4df548be31d41888f81eb4d1e6d0e15d/selenium-devtools-v128-4.25.0-sources.jar"
+                        },
+                        {
+                            "name": "selenium-devtools-v128",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v128/4.25.0/e25847baa8b7dbdcb2088a0cc4910902e97d4e88/selenium-devtools-v128-4.25.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.auto.service",
+                    "name": "auto-service-annotations",
+                    "version": "1.1.1",
+                    "artifacts": [
+                        {
+                            "name": "auto-service-annotations",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.1.1/da12a15cd058ba90a0ff55357fb521161af4736d/auto-service-annotations-1.1.1.jar"
+                        },
+                        {
+                            "name": "auto-service-annotations",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service-annotations/1.1.1/b855be4f39e0fe5bb27dd137fd37dd4c4e2c2f5a/auto-service-annotations-1.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-sdk-metrics",
+                    "version": "1.42.1",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-sdk-metrics",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-metrics/1.42.1/92e53b2f4f31d0c8fd08a461c036accb4e3c797/opentelemetry-sdk-metrics-1.42.1.jar"
+                        },
+                        {
+                            "name": "opentelemetry-sdk-metrics",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-metrics/1.42.1/8781d0b5b7a3320865bb20a20623507dda36d2d7/opentelemetry-sdk-metrics-1.42.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-sdk-logs",
+                    "version": "1.42.1",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-sdk-logs",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-logs/1.42.1/e758b47459c866c6e10d3141979561951cab55d/opentelemetry-sdk-logs-1.42.1.jar"
+                        },
+                        {
+                            "name": "opentelemetry-sdk-logs",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-logs/1.42.1/a18a36c1afc412b7fd6ac6ad04c7891bba916d62/opentelemetry-sdk-logs-1.42.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-exporter-logging",
+                    "version": "1.42.1",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-exporter-logging",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-exporter-logging/1.42.1/941d8eb85f7a4674fdad7ce80166424c675128c7/opentelemetry-exporter-logging-1.42.1-sources.jar"
+                        },
+                        {
+                            "name": "opentelemetry-exporter-logging",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-exporter-logging/1.42.1/682e34249a5765e54e367722ebbbed4b26235225/opentelemetry-exporter-logging-1.42.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-sdk-common",
+                    "version": "1.42.1",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-sdk-common",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-common/1.42.1/e6f1abd8acbcc831e8e064b7e1c94dfc83efdbcc/opentelemetry-sdk-common-1.42.1.jar"
+                        },
+                        {
+                            "name": "opentelemetry-sdk-common",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-common/1.42.1/6caa70033cbbd65a7f617ba24627c075f8bff263/opentelemetry-sdk-common-1.42.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry.semconv",
+                    "name": "opentelemetry-semconv",
+                    "version": "1.25.0-alpha",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-semconv",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry.semconv/opentelemetry-semconv/1.25.0-alpha/76b3d4ca0a8f20b27c1590ceece54f0c7fb5857e/opentelemetry-semconv-1.25.0-alpha.jar"
+                        },
+                        {
+                            "name": "opentelemetry-semconv",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry.semconv/opentelemetry-semconv/1.25.0-alpha/9d019749cfd8426f20513013e44ddbfa1d2e2cd9/opentelemetry-semconv-1.25.0-alpha-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-featurespec_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-featurespec_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-featurespec_2.13/3.2.19/218b5dcd85dcc007dc2d73ecca8f0ed8a4544cd8/scalatest-featurespec_2.13-3.2.19-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-featurespec_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-featurespec_2.13/3.2.19/3732488eb1e6c7a1f164c9373f7cb4688161e60e/scalatest-featurespec_2.13-3.2.19.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-api",
+                    "version": "1.42.1",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-api",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-api/1.42.1/f1b941cea23d721b368847e4b261a8aa52dc16a4/opentelemetry-api-1.42.1.jar"
+                        },
+                        {
+                            "name": "opentelemetry-api",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-api/1.42.1/afcb5afbe50fbf435288299d9cf3faf1f5196617/opentelemetry-api-1.42.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-core_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-core_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-core_2.13/3.2.19/cb1cd74c14b7b7e358fe9e7cd3665d8e5b1220ef/scalatest-core_2.13-3.2.19-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-core_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-core_2.13/3.2.19/b39ebf9182d014bd9e0c6391b0677b90acc6dce4/scalatest-core_2.13-3.2.19.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "33.3.0-jre",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/33.3.0-jre/13b4d0924e6023eda04b4c7aa83b32dfedf735a7/guava-33.3.0-jre.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/33.3.0-jre/1d046d01f0c3f02ae264c91e9032695579517473/guava-33.3.0-jre-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-devtools-v85",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-devtools-v85",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v85/4.25.0/c7c4f2166933c72e7b2f8e855ac4b6875521bd2e/selenium-devtools-v85-4.25.0.jar"
+                        },
+                        {
+                            "name": "selenium-devtools-v85",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v85/4.25.0/324b6c6117269da16a0afa10938234d4dc58f115/selenium-devtools-v85-4.25.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-edge-driver",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-edge-driver",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-edge-driver/4.25.0/b37ab3b7d580accd9b9d689ca79349f03975a2af/selenium-edge-driver-4.25.0.jar"
+                        },
+                        {
+                            "name": "selenium-edge-driver",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-edge-driver/4.25.0/f08146c51d9ec48b0abd35c4ae85be1a9a5c8d83/selenium-edge-driver-4.25.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-exec",
+                    "version": "1.4.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-exec",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.4.0/a0527874cc44dec351ce0073d6427f48ff147a2f/commons-exec-1.4.0-sources.jar"
+                        },
+                        {
+                            "name": "commons-exec",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.4.0/e9061b21958bfaf1cb736eb22e36cbf02d8fe9f/commons-exec-1.4.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-os",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-os",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-os/4.25.0/73b096529f70f4273956f18945a9ccce75666365/selenium-os-4.25.0-sources.jar"
+                        },
+                        {
+                            "name": "selenium-os",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-os/4.25.0/dc1d5660dd9dcd08c89288da6ee588261bfa3090/selenium-os-4.25.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-api",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-api",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/4.25.0/54c6fc0dac405b92163dafc57512b81211e9d14c/selenium-api-4.25.0-sources.jar"
+                        },
+                        {
+                            "name": "selenium-api",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/4.25.0/959893b195e318a5d4653d65805ccffb521ed03c/selenium-api-4.25.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-api-incubator",
+                    "version": "1.42.1-alpha",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-api-incubator",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-api-incubator/1.42.1-alpha/34deab246aa89c609849ebf17716c5c3a5831fb2/opentelemetry-api-incubator-1.42.1-alpha.jar"
+                        },
+                        {
+                            "name": "opentelemetry-api-incubator",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-api-incubator/1.42.1-alpha/e0f744dc14ee806b1b57e46d07bd6283f455915e/opentelemetry-api-incubator-1.42.1-alpha-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.10",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.13.10/5df79e6c2f21a25172ed2ecc3c83f4703ad50061/scala-reflect-2.13.10-sources.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.13.10/f19c2a5fc93a63398a5cfc56a14f0abf1d28d27c/scala-reflect-2.13.10.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "3.0.2",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-devtools-v129",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-devtools-v129",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v129/4.25.0/45377c4e61ed09d67a0f08b9f1ea2e569327e9c4/selenium-devtools-v129-4.25.0.jar"
+                        },
+                        {
+                            "name": "selenium-devtools-v129",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-devtools-v129/4.25.0/a0a163b87c5aae0d19b746040aa95eb8449761ea/selenium-devtools-v129-4.25.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-firefox-driver",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-firefox-driver",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/4.25.0/c8ffe7009b4282f9ebece398fd11bf637ddcc87f/selenium-firefox-driver-4.25.0-sources.jar"
+                        },
+                        {
+                            "name": "selenium-firefox-driver",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/4.25.0/9a3a50dc5a4412f93171c842b97a7abc3a3aff8c/selenium-firefox-driver-4.25.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-json",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-json",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-json/4.25.0/63bb15cc1253ad9d8ad3560ff45de07e4c71b56f/selenium-json-4.25.0-sources.jar"
+                        },
+                        {
+                            "name": "selenium-json",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-json/4.25.0/a6702380e592496b41d5a88e185c04e3205a4048/selenium-json-4.25.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hamcrest",
+                    "name": "hamcrest-core",
+                    "version": "1.3",
+                    "artifacts": [
+                        {
+                            "name": "hamcrest-core",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+                        },
+                        {
+                            "name": "hamcrest-core",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-propspec_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-propspec_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-propspec_2.13/3.2.19/dba8de96556394e2799d021ddc3cb513ac3316d0/scalatest-propspec_2.13-3.2.19-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-propspec_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-propspec_2.13/3.2.19/2d38d275d74f547a3388f1ed9e149b2124f0fc66/scalatest-propspec_2.13-3.2.19.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.opentest4j",
+                    "name": "opentest4j",
+                    "version": "1.3.0",
+                    "artifacts": [
+                        {
+                            "name": "opentest4j",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.3.0/152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e/opentest4j-1.3.0.jar"
+                        },
+                        {
+                            "name": "opentest4j",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.3.0/afb8ff23cffb021c56f333953aebfe6e8818568e/opentest4j-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "failureaccess",
+                    "version": "1.0.2",
+                    "artifacts": [
+                        {
+                            "name": "failureaccess",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.2/6acdafcf2dfc3b548e59dd3a4b454552aeb6ff65/failureaccess-1.0.2-sources.jar"
+                        },
+                        {
+                            "name": "failureaccess",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.2/c4a06a64e650562f30b7bf9aaec1bfed43aca12b/failureaccess-1.0.2.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-diagrams_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-diagrams_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-diagrams_2.13/3.2.19/627ce69bcab1472c163537d8183506c02340bf71/scalatest-diagrams_2.13-3.2.19.jar"
+                        },
+                        {
+                            "name": "scalatest-diagrams_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-diagrams_2.13/3.2.19/fc0edd0cd7c6559195de76b3878547a3d9f5b373/scalatest-diagrams_2.13-3.2.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.seleniumhq.selenium",
+                    "name": "selenium-safari-driver",
+                    "version": "4.25.0",
+                    "artifacts": [
+                        {
+                            "name": "selenium-safari-driver",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-safari-driver/4.25.0/b6fb9a251cea14893a9215b788b7deaf3a122966/selenium-safari-driver-4.25.0.jar"
+                        },
+                        {
+                            "name": "selenium-safari-driver",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-safari-driver/4.25.0/d7aec37259d20d22ec1bde7d4c9dcacc5009aded/selenium-safari-driver-4.25.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.14",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.14/f8b4afe89abe48ca670f620c7da89b71f93e6546/scala-library-2.13.14.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.13.14/8bc99487acecaa157c2f7e5be2b2dde4fc4c9748/scala-library-2.13.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.opentelemetry",
+                    "name": "opentelemetry-sdk-extension-autoconfigure",
+                    "version": "1.42.1",
+                    "artifacts": [
+                        {
+                            "name": "opentelemetry-sdk-extension-autoconfigure",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.42.1/97a8a0288ba4223f78ceee496619cd81a799c0bd/opentelemetry-sdk-extension-autoconfigure-1.42.1-sources.jar"
+                        },
+                        {
+                            "name": "opentelemetry-sdk-extension-autoconfigure",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.42.1/10a61eac41724f077492866491be4b22970949d5/opentelemetry-sdk-extension-autoconfigure-1.42.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.13/3.2.19/afa3b540f0d63342d8be3aa946c4dbfff3bb7cd/scalactic_2.13-3.2.19.jar"
+                        },
+                        {
+                            "name": "scalactic_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.13/3.2.19/b27ec797e6f9da7618468d44c0a59249f90b1b42/scalactic_2.13-3.2.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-compatible",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-compatible",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-compatible/3.2.19/79d241dc3db3aaeabef4abd497303513b63f5564/scalatest-compatible-3.2.19-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-compatible",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-compatible/3.2.19/609bc82cc06a1322f60039a81fc003ee81d7064f/scalatest-compatible-3.2.19.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bytebuddy",
+                    "name": "byte-buddy",
+                    "version": "1.15.1",
+                    "artifacts": [
+                        {
+                            "name": "byte-buddy",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.15.1/893cd45742a597c278593f74c676d86b610901fc/byte-buddy-1.15.1-sources.jar"
+                        },
+                        {
+                            "name": "byte-buddy",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.15.1/3072da2184d49cf642d22badee2ce36b2d6dfb92/byte-buddy-1.15.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-matchers-core_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-matchers-core_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-matchers-core_2.13/3.2.19/14af82e30b89fb6489e9c4f2a06753f7becb5d44/scalatest-matchers-core_2.13-3.2.19-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-matchers-core_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-matchers-core_2.13/3.2.19/a1a6243b90957ddc718ab6e390b4a32e9122936e/scalatest-matchers-core_2.13-3.2.19.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apiguardian",
+                    "name": "apiguardian-api",
+                    "version": "1.1.2",
+                    "artifacts": [
+                        {
+                            "name": "apiguardian-api",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/a231e0d844d2721b0fa1b238006d15c6ded6842a/apiguardian-api-1.1.2.jar"
+                        },
+                        {
+                            "name": "apiguardian-api",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.1.2/e0787a997746ac32639e0bf3cb27af8dce8a3428/apiguardian-api-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-mustmatchers_2.13",
+                    "version": "3.2.19",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-mustmatchers_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-mustmatchers_2.13/3.2.19/344b24ed6b4885b676da25e67dfd7dd188057c67/scalatest-mustmatchers_2.13-3.2.19-sources.jar"
+                        },
+                        {
+                            "name": "scalatest-mustmatchers_2.13",
+                            "path": "/Users/samspencer/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest-mustmatchers_2.13/3.2.19/b6604e85a24b401e7e3ea6a896bd17f0e52af15/scalatest-mustmatchers_2.13-3.2.19.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

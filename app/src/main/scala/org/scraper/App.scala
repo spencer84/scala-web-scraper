@@ -3,19 +3,28 @@
  */
 package org.scraper
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium._;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import scala.jdk.CollectionConverters._;
 
 object App {
   def main(args: Array[String]): Unit = {
 
-    val driver: WebDriver = new SafariDriver();
+    //System.setProperty("webdriver.chrome.driver", "../chromedriver_mac64/chromedriver");
 
-    // driver.get("https://jobs.apple.com/en-gb/search?location=united-kingdom-GBR")
+    println(System.getProperty("user.dir"))
 
-    // WebElement textBox = driver.findElement(By.name("table-col-1"));
+    val driver: WebDriver = new ChromeDriver();
 
-    println(greeting())
+    driver.get("https://jobs.apple.com/en-gb/search?location=united-kingdom-GBR");
+
+    val textBox = driver.findElements(By.className("table-col-1")).asScala;
+
+    for (job <- textBox){
+      println(job.getText());
+    }
+
   }
 
   def greeting(): String = "Hello, world!"
