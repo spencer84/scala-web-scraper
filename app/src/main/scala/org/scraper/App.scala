@@ -15,15 +15,24 @@ object App {
 
     println(System.getProperty("user.dir"))
 
-    val driver: WebDriver = new ChromeDriver();
+    // val driver: WebDriver = new ChromeDriver();
 
-    driver.get("https://jobs.apple.com/en-gb/search?location=united-kingdom-GBR");
+    // driver.get("https://jobs.apple.com/en-gb/search?location=united-kingdom-GBR");
 
-    val textBox = driver.findElements(By.className("table-col-1")).asScala;
+    // val textBox = driver.findElements(By.className("table-col-1")).asScala;
 
-    for (job <- textBox){
-      println(job.getText());
+    val dbConnection = new DBConnection("")
+
+    val result = dbConnection.connect()
+     
+    result match {
+      case Some(connection) => println("Success!")
+      case None => println("Failure :(")
     }
+
+    // for (job <- textBox){
+    //   println(job.getText());
+    // }
 
   }
 

@@ -28,6 +28,7 @@ dependencies {
 
     implementation 'org.seleniumhq.selenium:selenium-java:4.25.0'
     implementation 'org.junit.jupiter:junit-jupiter-engine:5.11.0'
+    implementation 'org.postgresql:postgresql:42.7.4'
 }
 
 testing {
